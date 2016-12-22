@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/profil" android:icon="@drawable/iconprofile"
+            android:title="POFILE" />
+        <item android:id="@+id/webViewweb" android:icon="@drawable/iconwebsite"
+            android:title="WEBSITE"/>
+        <item android:id="@+id/webViewihp" android:icon="@drawable/iconwebsite"
+            android:title="HAJJ AND UMRAH"/>
+        <item android:id="@+id/webviewvideoihbs" android:icon="@drawable/icontv"
+            android:title="IHBSTV"/>
+        <item android:id="@+id/btnimagesohib" android:icon="@drawable/iconradio"
+            android:title="ISLAMIC RADIO" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/imagecontactperson" android:icon="@android:drawable/ic_menu_call"
+                android:title="Contact Person" />
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

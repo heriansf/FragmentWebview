@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbarsohibradio"
+        android:layout_gravity="center_horizontal"
+        android:indeterminate="false" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagesohibradio"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/iconradiosohib"
+        android:layout_margin="10dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagesstopradio"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/iconstopradiosohib"
+        android:layout_alignBottom="@+id/imagesohibradio"
+        android:layout_alignRight="@+id/imagesohibradio"
+        android:layout_alignEnd="@+id/imagesohibradio"
+        android:layout_marginRight="66dp"
+        android:layout_marginEnd="66dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagesplayradio"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/iconplayradiosohib"
+        android:layout_alignBottom="@+id/imagesohibradio"
+        android:layout_alignLeft="@+id/txtplay"
+        android:layout_alignStart="@+id/txtplay" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="PLAY"
+        android:id="@+id/txtplay"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_below="@+id/imagesohibradio"
+        android:layout_alignLeft="@+id/imagesohibradio"
+        android:layout_alignStart="@+id/imagesohibradio"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="STOP"
+        android:id="@+id/txtstop"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/txtplay"
+        android:layout_alignLeft="@+id/imagesstopradio"
+        android:layout_alignStart="@+id/imagesstopradio" />
+
+</RelativeLayout>
